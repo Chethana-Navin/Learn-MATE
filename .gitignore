@@ -1,0 +1,23 @@
+# Build output
+target/
+*.class
+
+# IDE metadata
+.idea/
+.vscode/
+*.iml
+
+# Maven wrapper and logs
+.mvn/wrapper/maven-wrapper.jar
+*.log
+
+# Operating system files
+Thumbs.db
+Desktop.ini
+
+# Local runtime data
+uploads/*
+!uploads/.gitkeep
+uploads/*/*
+!uploads/*/.gitkeep
+
